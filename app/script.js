@@ -1,3 +1,3 @@
-document.getElementById("completeBtn").onclick = function () {
+document.getElementById("completeBtn").addEventListener("click", function () {
   alert("Task completed! Notification sent.");
-};
+});
